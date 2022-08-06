@@ -1,12 +1,17 @@
-*body{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
     background-repeat: no-repeat;
-
  }   
 #container img{
-    margin: 150px auto;
-    width: 1000px;
-    height: 1000px;
+    margin: 100px auto;
+    width: 250px;
+    height: 250px;
     padding: 8px;
+    
 }
 #container{
     display: flex;
@@ -15,4 +20,7 @@
 .title{
   text-align: center;
 }
-
+.situation-div, .talent-div, .ability-div, .skill-div, .appearance-div{
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
